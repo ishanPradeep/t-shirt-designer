@@ -1,0 +1,21 @@
+<div>
+  <canvas id="frontCanvas" style="border: 1px solid #ddd;"  width="800" height="600"></canvas>
+
+    <div>
+      <button (click)="changeTShirtImage('../../assets/designs/front/1.jpg')" style="background-color: #3498db; color: #fff;">front </button>
+      <button (click)="changeTShirtImage('../../assets/designs/back/1.jpg')" style="background-color: #3498db; color: #fff;">back </button>
+      <button (click)="changeTShirtImage('../../assets/designs/sleeves/1.jpg')" style="background-color: #3498db; color: #fff;">sleeves </button>
+
+      <button (click)="addText()" style="background-color: #3498db; color: #fff;">Add Text</button>
+      <button (click)="loadTextArtCategory()" style="background-color: #3498db; color: #fff;">Load Text Art</button>
+      <button (click)="loadShapesCategory()" style="background-color: #3498db; color: #fff;">Load Shapes</button>
+      
+
+      <button (click)="zoomIn()">Zoom In</button>
+      <button (click)="zoomOut()">Zoom Out</button>
+
+      <button (click)="downloadImage()">Download Image</button>
+
+    </div>
+
+</div>

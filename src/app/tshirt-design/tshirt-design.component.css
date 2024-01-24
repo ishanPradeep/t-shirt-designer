@@ -1,0 +1,14 @@
+/* front-side.component.css */
+
+canvas {
+  border: 1px solid #ddd; /* Add a border to the canvas */
+}
+
+button {
+  margin: 5px; /* Add margin to buttons for spacing */
+  padding: 10px; /* Add padding to buttons for better appearance */
+  background-color: #3498db; /* Set background color for buttons */
+  color: #fff; /* Set text color for buttons */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
